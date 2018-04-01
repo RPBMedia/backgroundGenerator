@@ -10,6 +10,5 @@ function setBackgroundGradient(c1, c2, direction) {
   body.style.background = `linear-gradient(to ${direction}, ${color1.value}, ${color2.value})`;
 }
 
-color1.addEventListener('input', () => setBackgroundGradient(color1.value, color2.value, 'right'));
-
-color2.addEventListener('input', () => setBackgroundGradient(color1.value, color2.value, 'right'));
+// color1.addEventListener('input', () => setBackgroundGradient(color1.value, color2.value, 'right'));
+// color2.addEventListener('input', () => setBackgroundGradient(color1.value, color2.value, 'right'));

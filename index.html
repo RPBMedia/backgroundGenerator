@@ -8,8 +8,19 @@
   <body id="mainContainer">
     <h1>Background Generator</h1>
 
-    <input id="color1" type="color" name="color1" value="#00ff00">
-    <input id="color2" type="color" name="color2" value="#ff0000">
+    <input
+      oninput="setBackgroundGradient(color1.value, color2.value, 'right')"
+      id="color1"
+      type="color"
+      name="color1"
+      value="#00ff00"
+    >
+    <input oninput="setBackgroundGradient(color1.value, color2.value, 'right')"
+      id="color2"
+      type="color"
+      name="color2"
+      value="#ff0000"
+    >
 
     <h2>Current Background</h2>
 
