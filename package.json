@@ -1,0 +1,22 @@
+{
+  "name": "backgroundgenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RPBMedia/backgroundGenerator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RPBMedia/backgroundGenerator/issues"
+  },
+  "homepage": "https://github.com/RPBMedia/backgroundGenerator#readme",
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}
